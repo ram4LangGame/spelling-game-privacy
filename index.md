@@ -144,7 +144,7 @@
 <p>Questions about this policy or your data: <a href="mailto:ramrathnamch@gmail.com">ramrathnamch@gmail.com</a>.</p>
 
 <h2 id="changes">Changes to this policy</h2>
-<p>When the app's data practices change (for example a service is added or removed), this page is updated and the effective date at the top changes. The current version is always at <a href="https://ram4langgame.github.io/ShootMissSpellings/privacy-policy.html">ram4langgame.github.io/ShootMissSpellings/privacy-policy.html</a>.</p>
+<p>When the app's data practices change (for example a service is added or removed), this page is updated and the effective date at the top changes. The current version is always at <a href="https://ram4langgame.github.io/spelling-game-privacy/">ram4langgame.github.io/spelling-game-privacy</a>.</p>
 
 </main>
 <footer>
