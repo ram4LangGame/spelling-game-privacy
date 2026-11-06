@@ -51,7 +51,7 @@
 <body>
 <header>
   <h1>Spelling Pops privacy policy</h1>
-  <p>Effective 19 October 2026. Applies to the Spelling Pops Android app, package <code>com.ram4langgame.spellingpops</code>, published by ram4LangGame.</p>
+  <p>Effective 3 November 2026. Applies to the Spelling Pops Android app, package <code>com.ram4langgame.spellingpops</code>, published by ram4LangGame.</p>
 </header>
 <main>
 
@@ -97,15 +97,15 @@
 <!-- Remove this section if the release build was made without google-services.json (the release workflow log says which). -->
 <section id="firebase">
 <h2>Firebase Analytics and Crashlytics</h2>
-<p>To learn which parts of the game are used and where it crashes, the app sends these events to Firebase Analytics: <code>level_start</code> and <code>level_complete</code> (level number, stars and question type), <code>mock_complete</code> (source, marks and maximum marks), <code>paywall_view</code> (where the Pro screen was opened from), <code>purchase_success</code> (the product id), <code>ad_reward</code> (which video kind) and <code>review_prompt</code> (why the rating dialog was requested and how many times it has been asked). The events carry no words, no scores from the leaderboard, no nickname and nothing you typed. Firebase Analytics also records its own standard events: first open, session start, screen views, engagement time, app updates and, because the Pro purchase goes through Google Play, the purchase itself with its product id, price and currency.</p>
+<p>To learn which parts of the game are used and where it crashes, the app sends these events to Firebase Analytics: <code>level_start</code> and <code>level_complete</code> (level number, stars and question type), <code>mock_complete</code> (source, marks and maximum marks), <code>paywall_view</code> (where the Pro screen was opened from), <code>purchase_success</code> (the product id), <code>ad_reward</code> (which video kind), <code>review_prompt</code> (why the rating dialog was requested and how many times it has been asked), <code>challenge_complete</code> (the daily challenge score and streak), <code>language_request</code> (which screen the language link was tapped on) and, since version 5.3, <code>rate_app</code>, <code>share_app</code> and <code>feedback_open</code> (a tap on Rate, Share or Send feedback in Settings, with no details) and, since version 5.4, <code>track_select</code> and <code>spelling_select</code> (which content track, India or international, and which spelling, British or American, you chose). The events carry no words, no scores from the leaderboard, no nickname and nothing you typed. Firebase Analytics also records its own standard events: first open, session start, screen views, engagement time, app updates and, because the Pro purchase goes through Google Play, the purchase itself with its product id, price and currency.</p>
 <p>Firebase adds its own technical details to each event: an app-instance ID that Firebase creates for your installation, the advertising ID where allowed, phone model, Android version, app version, language and the country derived from your internet address. Firebase Crashlytics sends a report when the app crashes: the stack trace, phone model, Android version, free memory and whether the phone is rooted. Google keeps event data for two months and crash data for ninety days. Details are in <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 </section>
 
 <h2 id="reminder">Daily reminder (stays on the phone)</h2>
-<p>If you turn on <em>Remind me to play every day</em> in Settings, the app shows one local notification a day at the time you chose. It is scheduled on your phone by the app itself; no server, no account and no data are involved. Android 13 and later ask for the notification permission when you turn the reminder on, and you can turn it off in Settings at any time.</p>
+<p>If you turn on <em>Remind me to play every day</em> in Settings, the app shows one local notification a day at the time you chose. It is scheduled on your phone by the app itself; no server, no account and no data are involved. Android 13 and later ask for the notification permission when you turn the reminder on, and you can turn it off in Settings at any time. The app offers the reminder once after your first completed level; since version 5.3 the evening notification can mention your streak ("Your 3-day streak ends at midnight") and stays silent on a day you have already played. The streak count and the day you last played are kept on the phone for that purpose and go nowhere else.</p>
 
 <h2 id="share">Share card and progress sheet (only where you send them)</h2>
-<p><em>Share my result</em> and <em>Share a progress sheet</em> draw a picture on your phone (score or stars, streak, words to practise, the Play Store link) and hand it to the app you choose in the system share sheet. Spelling Pops uploads nothing; what you share, and with whom, is your choice.</p>
+<p><em>Share my result</em> and <em>Share a progress sheet</em> draw a picture on your phone (score or stars, streak, words to practise, the Play Store link) and hand it to the app you choose in the system share sheet. Spelling Pops uploads nothing; what you share, and with whom, is your choice. <em>Share Spelling Pops</em> in Settings hands one line of text with the Play Store link to the app you choose, and <em>Rate Spelling Pops</em> opens the Play Store listing. <em>Send feedback</em> opens your own email app with a draft addressed to us that lists the app version, your Android version and phone model, the interface language and whether Pro is on; nothing is sent unless you send that mail, and we see only what you send.</p>
 
 <h2 id="speech">Pronunciation</h2>
 <p>The <em>Hear</em> button and Dictation use the text-to-speech engine installed on your phone. Some engines produce the speech on their provider's servers and may send the word to be spoken to that provider under its own policy. Spelling Pops itself sends nothing for this feature.</p>
@@ -141,14 +141,14 @@
 </ul>
 
 <h2 id="contact">Contact</h2>
-<p>Questions about this policy or your data: <a href="mailto:REPLACE-WITH-YOUR-EMAIL@example.com">REPLACE-WITH-YOUR-EMAIL@example.com</a>, or open an issue at <a href="https://github.com/ram4LangGame/ShootMissSpellings/issues">github.com/ram4LangGame/ShootMissSpellings/issues</a>.</p>
+<p>Questions about this policy or your data: <a href="mailto:ramrathnamch@gmail.com">ramrathnamch@gmail.com</a>.</p>
 
 <h2 id="changes">Changes to this policy</h2>
-<p>When the app's data practices change (for example a service is added or removed), this page is updated and the effective date at the top changes. The current version is always at <a href="https://ram4langgame.github.io/ShootMissSpellings/privacy-policy.html">ram4langgame.github.io/ShootMissSpellings/privacy-policy.html</a>.</p>
+<p>When the app's data practices change (for example a service is added or removed), this page is updated and the effective date at the top changes. The current version is always at <a href="https://ram4langgame.github.io/spelling-game-privacy/">ram4langgame.github.io/spelling-game-privacy</a>.</p>
 
 </main>
 <footer>
-  <p>Spelling Pops · ram4LangGame · effective 19 October 2026</p>
+  <p>Spelling Pops · ram4LangGame · effective 3 November 2026</p>
 </footer>
 </body>
 </html>
